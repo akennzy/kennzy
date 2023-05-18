@@ -1,0 +1,33 @@
+body {
+    color:white;
+    background-color: rgb(133, 47, 125);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(140, 0, 255);
+}
+.center{
+    text-align: center;
+}
+main img {
+    width: 30px;
+    height: 30px;
+
+}
+main{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
