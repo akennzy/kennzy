@@ -1,33 +1,51 @@
-body {
-    color:white;
-    background-color: rgb(133, 47, 125);
+body{
+    background-color: rgb(98, 70, 119);
     font-family: Arial, Helvetica, sans-serif;
-    
+    font-size: medium;
 }
-ul {
+ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 header img{
     width: 150px;
-    height: 150px;
+    height: 150;
     border-radius: 50%;
-    border: 5px solid rgb(140, 0, 255);
+    border: 2px solid white;
 }
 .center{
     text-align: center;
 }
-main img {
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+footer img{
     width: 30px;
     height: 30px;
-
-}
-main{
-    text-align: center;
+    border-radius: 50%;
+    Border:1px solid rgb(168, 107, 168)
 }
 footer{
     display: flex;
     justify-content: center;
-    color: black;
+}
+footer a {
+    margin: 5px;
 }
